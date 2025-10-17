@@ -1,4 +1,5 @@
 ## 如何用 Python 构建 API？
+[中文版本](README_zh-CN.md) | [English Version](README.md)
 ### 面向大语言模型的 API
 这是一个轻量级 Python API 服务，可连接至本地大语言模型（LLM）Ollama，同时支持 API 密钥验证与额度管理功能。
 
