@@ -1,6 +1,6 @@
 ## How to build an API with Python?
 # Project Name
-[中文版本](API-For-LLM/README-zh-CN.md) | [English Version](README.md)
+[中文版本](README-zh-CN.md) | [English Version](README.md)
 ### API-For-LLM
 A lightweight Python API service that connects to the Ollama local large language model (LLM) and supports API key verification and credit management.
 Overview
