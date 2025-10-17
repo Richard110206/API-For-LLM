@@ -10,7 +10,7 @@
 - **额度管理**：每个 API 密钥都有初始调用额度限制，用于控制服务使用量。
 - **简单集成**：提供易于使用的 HTTP POST 接口，可发送提示词并接收大语言模型的响应。
 - **本地部署**：支持与本地部署的 Ollama 模型（如 Mistral）配合使用，无需依赖外部 API。
-- 
+  
 #### 📌 前置条件
 - Python 环境：需安装 Python 3.8 及以上版本。
 - Ollama 安装：
@@ -18,21 +18,25 @@
 ```bash
 brew install ollama
 ```
-使用以下命令在本地拉取所需的大语言模型（默认模型为 Mistral）：
+在本地拉取所需的大语言模型（默认模型为 Mistral）：
 ```bash
 ollama run mistral
 ```
+
 #### 📝 安装步骤
+
 **1. 克隆仓库**
 ```bash
 git clone https://github.com/Richard110206/API-For-LLM.git
 cd API-For-LLM
 ```
+
 **2. 安装依赖**
 通过 `requirements.txt` 文件安装所有必需的 Python 包：
 ```bash
 pip install -r requirements.txt
 ```
+
 #### 🔧 快速开始
 **1. 启动 API 服务**
 使用 Uvicorn 运行 FastAPI 服务：
