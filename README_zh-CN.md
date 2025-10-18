@@ -55,12 +55,11 @@ python test_api.py
 该脚本会向 API 发送一个提示词（默认提示词为 “告诉我什么是大语言模型？”，你也可以根据需求修改），并打印大语言模型返回的响应。
 
 - 方式 2：使用 Postman 或 Curl 等工具
-请求详情如下：
-请求方法：POST
-请求地址：`http://127.0.0.1:8000/generate?prompt=你的提示词`
-请求头：
-x-api-key：你的 API 密钥（从 .env 文件中获取）
-Content-Type：application/json
+
+  - 请求方法：POST
+  - 请求地址：`http://127.0.0.1:8000/generate?prompt=你的提示词`
+  - 请求头：x-api-key：你的 API 密钥（从 .env 文件中获取）
+  - Content-Type：application/json
 <img width="564" height="711" alt="image" src="https://github.com/user-attachments/assets/096b2cf8-d7c1-4a2b-930c-13802a90a22a" />
 
 **3. 查看 API 文档**
