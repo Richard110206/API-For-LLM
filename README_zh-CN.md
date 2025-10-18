@@ -41,9 +41,10 @@ pip install -r requirements.txt
 #### 🔧 快速开始
 **1. 启动 API 服务**
 使用 Uvicorn 运行 FastAPI 服务：
-bash
+```bash
 uvicorn main:app --reload
-服务将在 http://127.0.0.1:8000 地址启动。开发阶段可使用 --reload 参数实现自动重载（生产环境需移除该参数）。
+```
+服务将在 `http://127.0.0.1:8000` 地址启动。开发阶段可使用 `--reload` 参数实现自动重载（生产环境需移除该参数）。
 
 **2. 测试 API**
 - 方式 1：使用内置测试脚本
