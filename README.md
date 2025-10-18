@@ -58,12 +58,11 @@ python test_api.py
 The script sends a prompt (tell me what's LLM?)(of course,change by your mind) to the API and prints the LLM response.
 
 - **Option 2**: Use Tools Like [Postman](https://www.postman.com/downloads/)/Curl
-Request Details:
-Method: POST
-URL: http://127.0.0.1:8000/generate?prompt=your_prompt_here
-Headers:
-x-api-key: Your API key (from the .env file)
-Content-Type: application/json
+
+  - Method: POST
+  - URL: http://127.0.0.1:8000/generate?prompt=your_prompt_here
+  - Headers: x-api-key: Your API key (from the .env file)
+  - Content-Type: application/json
 <img width="564" height="711" alt="image" src="https://github.com/user-attachments/assets/096b2cf8-d7c1-4a2b-930c-13802a90a22a" />
 
 
