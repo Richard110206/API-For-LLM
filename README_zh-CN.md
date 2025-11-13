@@ -39,6 +39,7 @@ cd API-For-LLM
 ```
 
 **2. 安装依赖**
+
 通过 `requirements.txt` 文件安装所有必需的 Python 包：
 ```bash
 pip install -r requirements.txt
@@ -69,8 +70,8 @@ python test_api.py
 <img width="564" height="711" alt="image" src="https://github.com/user-attachments/assets/096b2cf8-d7c1-4a2b-930c-13802a90a22a" />
 
 **3. 查看 API 文档**
-FastAPI 会自动生成交互式文档：
-Swagger UI：在浏览器中访问 `http://127.0.0.1:8000/docs`
+
+FastAPI 会自动生成交互式文档：Swagger UI：在浏览器中访问 `http://127.0.0.1:8000/docs`
 
 ### 参考资料
 
