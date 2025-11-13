@@ -1,19 +1,24 @@
-## How to build an API with Python?
+## API-For-LLM
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green.svg)
+![Ollama](https://img.shields.io/badge/Ollama-LocalLLM-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 [中文版本](README_zh-CN.md) | [English Version](README.md)
-### API-For-LLM
+
 A lightweight Python API service that connects to the Ollama local large language model (LLM) and supports API key verification and credit management.
 Overview
 
 This project provides a FastAPI-based interface to interact with the Ollama local LLM. It implements core features such as API key authentication, call credit limits, and direct LLM response generation, enabling secure and controlled access to local LLM capabilities.
 
-#### 🚀 Features
+### 🚀 Features
 - **API Key Verification**: Ensures only authorized users can access the LLM service via valid API keys.
 - **Credit Management**: Each API key has an initial call credit limit to control service usage.
 - **Simple Integration**: Easy-to-use HTTP POST interface for sending prompts and receiving LLM responses.
 - **Local Deployment**: Works with locally deployed Ollama models (e.g., Mistral) to avoid external API dependencies.
 
 
-#### 📌 Prerequisites
+### 📌 Prerequisites
 - Python Environment: Python 3.8 or higher.
 - Ollama Installation:
 Install Ollama from the official website or using the command.
@@ -25,7 +30,7 @@ Pull the required LLM model locally (default: Mistral) using the command:
 ollama run mistral
 ```
 
-#### 📝 Installation Steps
+### 📝 Installation Steps
 
 **1. Clone the Repository**
 ```bash
@@ -39,7 +44,7 @@ Install all required Python packages using requirements.txt:
 pip install -r requirements.txt
 ```
 
-#### 🔧 Quick Start
+### 🔧 Quick Start
 **1. Start the API Service**
 Run the FastAPI service using Uvicorn:
 ```bash
