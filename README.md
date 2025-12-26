@@ -1,4 +1,4 @@
-## API-For-LLM
+## LLM_API
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green.svg)
 ![Ollama](https://img.shields.io/badge/Ollama-LocalLLM-orange.svg)
